@@ -1,3 +1,5 @@
+// Program Connects to Server and Reports changes
+
 const socket = require("socket.io-client")("http://192.168.1.171:3000")
 
 socket.on("connect", function() {
